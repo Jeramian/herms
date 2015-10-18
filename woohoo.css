@@ -1,0 +1,58 @@
+.bubbleBottle{
+    display: inline;
+}
+.circle1 {
+    border: solid;
+    border-color: aquamarine;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: burlywood;
+}
+.circle2 {
+    border: solid;
+    border-color: aquamarine;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: darkgreen;
+}
+.circle3 {
+    border: solid;
+    border-color: aquamarine;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: cyan;
+}
+.circle4{
+    border: solid;
+    border-color: aquamarine;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color:darkviolet;
+}
+.circle5{
+    border: solid;
+    border-color: aquamarine;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: darkslateblue;
+}
