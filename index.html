@@ -42,20 +42,30 @@
             <p>This is seriously the most dangerous part of this page, this is the area where i'm allowed to voice my opinion, even though this is my site and I can really post what ever I want.</p>
             
             <div class="post">
+                <div class ="readMarker"></div>
                 <h3>10/17/15 The first!</h3>
                 <p>This is the first post! I'm still making the page so it doesnt really count.</p>
                 <footer class="postFoot">~Jeremy Eramian~</footer>
             </div>
             
             <div class="post">
+                <div class ="readMarker"></div>
                 <h3>10/17/15 The second!</h3>
                 <p>Also the next page is going to be a to do list, so thats pretty cool!</p>
                 <footer class="postFoot">~Jeremy Eramian~</footer>
             </div>
             
             <div class="post">
+                <div class ="readMarker"></div>
                 <h3>10/17/15 The Third!</h3>
                 <p>The Woo Hoo page is probably just going to be a bunch of shapes with colors and pictures and stuff.</p>
+                <footer class="postFoot">~Jeremy Eramian~</footer>
+            </div>
+            
+            <div class="post">
+                <div class ="readMarker"></div>
+                <h3>10/17/15 The fourth!</h3>
+                <p>Welp, the woohoo page actually became a page for bubbles...and they pop so thats awesome!</p>
                 <footer class="postFoot">~Jeremy Eramian~</footer>
             </div>
         </div>
@@ -66,6 +76,14 @@
                 <p>~Bootstrap~</p>
             </div>
         </footer>
+        
+        <script>
+            $(document).ready(function() {
+               $('.readMarker').click(function() {
+                  $(this).effect('explode');
+               });
+            });
+        </script>
 
 
     </body>
